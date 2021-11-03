@@ -1,0 +1,79 @@
+:root {
+    /* color pallete */
+    --bg: #232136;
+    --bg_alt: #2a273f;
+    --bg_float: #393552;
+    --inactive: #59546d;
+    --subtle: #817c9c;
+    --fg: #e0def4;
+    --red: #eb6f92;
+    --yellow: #f6c177;
+    --orange: #ea9a97;
+    --blue: #3e8fb0;
+    --green: #9ccfd8;
+    --magenta: #c4a7e7;
+    --highlight: #312f44;
+    --highlight_inactive: #2a283d;
+    --highlight_overlay: #3f3c53;
+
+    /* GITHUB VARIABLES */
+    /* https://primer.style/primitives/colors */
+    --color-fg-default: var(--fg);
+    --color-fg-muted: var(--subtle);
+    --color-fg-subtle: var(--subtle);
+    --color-fg-on-emphasis: var(--fg);
+
+    --color-canvas-default: var(--bg);
+    --color-canvas-overlay: var(--bg_float);
+    --color-canvas-inset: var(--bg_alt);
+    --color-canvas-subtle: var(--inactive);
+    
+    --color-border-default: var(--inactive);
+    --color-border-muted: var(--subtle);
+    --color-border-subtle: var(--subtle);
+
+    --color-shadow-small: 0 0 transparent;
+    --color-shadow-medium: 0 3px 6px var(--bg_alt);
+    --color-shadow-large: 0 8px 24px var(--bg_alt);
+    --color-shadow-extra-large: 0 12px 48px var(--bg_alt);
+
+    --color-neutral-emphasis-plus: var(--subtle);
+    --color-netral-emphasis: var(--subtle);
+    --color-neutral-muted: var(--inactive);
+    --color-neutral-subtle: var(--highlight_inactive);
+
+    --color-accent-fg: var(--blue);
+    --color-accent-emphasis: var(--blue);
+    --color-accent-muted: var(--blue);
+    --color-accent-subtle: var(--blue);
+
+    --color-success-fg: var(--green);
+    --color-success-emphasis: var(--green);
+    --color-success-muted: var(--green);
+    --color-success-subtle: var(--green);
+
+    --color-attention-fg: var(--yellow);
+    --color-attention-emphasis: var(--yellow);
+    --color-attention-muted: var(--yellow);
+    --color-attention-subtle: var(--yellow);
+
+    --color-severe-fg: var(--orange);
+    --color-severe-emphasis: var(--orange);
+    --color-severe-muted: var(--orange);
+    --color-severe-subtle: var(--orange);
+
+    --color-danger-fg: var(--red);
+    --color-danger-emphasis: var(--red);
+    --color-danger-muted: var(--red);
+    --color-danger-subtle: var(--red);
+
+    --color-done-fg: var(--magenta);
+    --color-done-emphasis: var(--magenta);
+    --color-done-muted: var(--magenta);
+    --color-done-subtle: var(--magenta);
+
+    --color-sponsors-fg: var(--magenta);
+    --color-sponsors-emphasis: var(--magenta);
+    --color-sponsors-muted: var(--magenta);
+    --color-sponsors-subtle: var(--magenta);
+}
