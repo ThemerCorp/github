@@ -1,33 +1,31 @@
 /* THEMER <3 GITHUB */
-/* NTB & VHYGAWD <3 DARK CPT */
+/* GIL <3 DARK CPT */
 
 :root {
     /* COLOR PALLETE */
     /* for *-muted variables use 0.4 for alpha */
-    --bg: #22262a;
-    --highlight: #D3D4D4;
-    --highlight-overlay: var(--highlight);
-    --highlight-inactive: var(--highlight);
-    --fg:#d8d3ca;
-    --bg-float: #2d3135;
-    --inactive: #50545a;
-    --red: hsl(2, 87%, 68%);
-    --red-muted: hsla(2, 87%, 68%, 0.4);
-    --green: hsl(78, 38%, 46%);
-    --green-muted: hsla(78, 38%, 56%, 0.4);
-    --green-dark: hsl(78, 38%, 30%);
-    --yellow: hsl(36, 68%, 50%);
-    --yellow-muted: hsla(36, 68%, 50%, 0.4);
-    --blue: hsl(197, 48%, 60%);
-    --blue-muted: hsla(197, 48%, 60%, 0.4);
-    --blue-dark: hsl(197, 48%, 40%);
-    --magenta: hsl(312, 43%, 65%);
-    --magenta-muted: hsla(312, 43%, 65%, 0.4);
-    --orange: hsl(24, 71%, 59%);
-    --orange-muted: hsla(24, 71%, 59%, 0.4);
-    --subtle: #868c9c;
-    --bg-alt: #383c3f;
-
+    --bg: hsl(201, 33%, 8%);
+    --highlight: hsl(200, 30%, 12%);
+    --highlight-overlay: hsl(200, 30%, 12%);
+    --highlight-inactive: hsl(200, 30%, 12%);
+    --fg: hsl(219, 14%, 71%);
+    --bg-float: hsl(201, 33%, 20%);
+    --inactive: hsl(229, 9%, 25%);
+    --red: hsl(345, 53%, 55%);
+    --red-muted: hsla(345, 53%, 55%, 0.4);
+    --green: hsl(93, 40%, 61%);
+    --green-muted: hsla(93, 40%, 61%, 0.4);
+    --yellow: hsl(44, 59%, 66%);
+    --yellow-muted: hsla(44, 59%, 66%, 0.4);
+    --blue: hsl(207, 82%, 66%);
+    --blue-muted: hsla(207, 82%, 66%, 0.4);
+    --blue-dark: hsl(207, 82%, 40%);
+    --magenta: hsl(286, 60%, 67%);
+    --magenta-muted: hsla(286, 60%, 67%, 0.4),;
+    --orange: hsl(27, 87%, 67%);
+    --orange-muted: hsla(27, 87%, 67%. 0.4);
+    --subtle: hsl(214, 18%, 39%);
+    
     /* CHANGE THESE FOR CHANGING SOME HIGHLIGHTS */
     /* GITHUB PRIMER VARIABLES */
     /* https://primer.style/primitives/colors */
@@ -96,7 +94,7 @@
     --color-state-hover-primary-bg: var(--blue-dark) !important;
     --color-state-hover-primary-border: var(--blue) !important;
     
-    /* BUTTONS */   
+    /* BUTTONS */
     --color-btn-text: var(--fg) !important;
     --color-btn-bg: var(--bg-float) !important;
     --color-btn-border: var(--color-border-subtle) !important;
@@ -129,7 +127,7 @@
     --color-btn-danger-disabled-bg: var(--bg) !important;
     --color-btn-danger-focus-border: var(--red) !important;
     --color-btn-danger-icon: var(--red) !important;
-
+    
     /* ANSI */
     --color-ansi-black: #0d1117;
     --color-ansi-black-bright: #0d1117;
@@ -148,7 +146,7 @@
     --color-ansi-magenta-bright: var(--magenta) !important;
     --color-ansi-cyan: var(--blue) !important;
     --color-ansi-cyan-bright: var(--blue) !important;
-    
+
     /* WORKFLOWS */
 	--color-workflow-card-bg: var(--bg-alt) !important;	
 	--color-workflow-card-hover-bg: var(--bg-float) !important;

@@ -98,23 +98,58 @@
     --color-state-hover-primary-border: var(--blue) !important;
 
     /* BUTTONS */
-	--color-btn-bg: var(--bg-alt) !important;	
-	--color-btn-hover-bg: var(--bg-float) !important;
-	--color-btn-hover-bg: var(--highlight-overlay) !important;
-	--color-btn-focus-bg: var(--bg-float) !important;
-	--color-btn-focus-bg: var(--highlight-overlay) !important;
-	--color-btn-border: var(--highlight) !important;
-    
-    --color-btn-primary-bg: var(--green-dark) !important;
-    --color-btn-primary-border: var(--highlight) !important;
-    --color-btn-primary-hover-bg: var(--blue) !important;
-    --color-btn-primary-hover-border: var(--highlight-overlay) !important;
-    --color-btn-primary-focus-bg: var(--blue) !important;
-    --color-btn-primary-focus-border: var(--highlight-overlay) !important;
-
-    --color-btn-primary-disabled-bg: var(--green-muted) !important;
+    --color-btn-text: var(--fg) !important;
+    --color-btn-bg: var(--bg-float) !important;
+    --color-btn-border: var(--color-border-subtle) !important;
+    --color-btn-hover-bg: var(--bg-alt) !important;
+    --color-btn-hover-border: var(--color-border-default) !important;
+    --color-btn-active-bg: var(--bg-alt) !important;
+    --color-btn-active-border: var(--color-btn-hover-border) !important;
     --color-btn-selected-bg: var(--bg-alt) !important;
+    --color-btn-focus-bg: var(--bg-alt) !important;
+    --color-btn-primary-text: var(--fg) !important;
+    --color-btn-primary-bg: var(--green) !important;
+    --color-btn-primary-hover-bg: var(--green-dark) !important;
+    --color-btn-primary-selected-bg: var(--green) !important;
+    --color-btn-primary-focus-bg: var(--green) !important;
+    --color-btn-primary-icon: var(--fg) !important;
+    --color-btn-outline-text: var(--blue) !important;
+    --color-btn-outline-hover-text: var(--blue) !important;
+    --color-btn-outline-hover-bg: var(--bg-alt) !important;
+    --color-btn-outline-selected-text: var(--fg) !important;
+    --color-btn-outline-selected-bg: var(--blue-dark) !important;
+    --color-btn-outline-disabled-bg: var(--bg-float) !important;
+    --color-btn-danger-text: var(--red) !important;
+    --color-btn-danger-hover-text: var(--fg) !important;
+    --color-btn-danger-hover-bg: var(--red) !important;
+    --color-btn-danger-hover-border: var(--red) !important;
+    --color-btn-danger-hover-icon: var(--fg) !important;
+    --color-btn-danger-selected-text: var(--fg) !important;
+    --color-btn-danger-selected-bg: var(--red) !important;
+    --color-btn-danger-selected-border: var(--orange) !important;
+    --color-btn-danger-disabled-bg: var(--bg) !important;
+    --color-btn-danger-focus-border: var(--red) !important;
+    --color-btn-danger-icon: var(--red) !important;
     
+    /* ANSI */
+    --color-ansi-black: #0d1117;
+    --color-ansi-black-bright: #0d1117;
+    --color-ansi-white: #b1bac4;
+    --color-ansi-white-bright: #f0f6fc;
+    --color-ansi-gray: #6e7681;
+    --color-ansi-red: var(--red) !important;
+    --color-ansi-red-bright: var(--red) !important;
+    --color-ansi-green: var(--green) !important;
+    --color-ansi-green-bright: var(--green) !important;
+    --color-ansi-yellow: var(--yellow) !important;
+    --color-ansi-yellow-bright: var(--yellow) !important;
+    --color-ansi-blue: var(--blue) !important;
+    --color-ansi-blue-bright: var(--blue) !important;
+    --color-ansi-magenta: var(--magenta) !important;
+    --color-ansi-magenta-bright: var(--magenta) !important;
+    --color-ansi-cyan: var(--blue) !important;
+    --color-ansi-cyan-bright: var(--blue) !important;
+
     /* WORKFLOWS */
 	--color-workflow-card-bg: var(--bg-alt) !important;	
 	--color-workflow-card-hover-bg: var(--bg-float) !important;
