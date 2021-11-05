@@ -1,0 +1,357 @@
+:root {
+    /* COLOR PALLETE */
+    /* for *-muted variables use 0.4 for alpha */
+    --bg: #2e3440;
+    --highlight: #434c5e;
+    --highlight-overlay: var(--highlight);
+    --highlight-inactive: var(--highlight);
+    --fg: #E5E9F0;
+    --bg-float: #3B4048;
+    --inactive: #4C566A;
+    --red: #d94848;
+    --red-muted: hsla(2, 87%, 68%, 0.4);
+    --green: #98C379;
+    --green-muted: hsla(78, 38%, 56%, 0.4);
+    --green-dark: hsl(78, 38%, 30%);
+    --yellow: #d4d198;
+    --yellow-muted: hsl(36, 68%, 65%, 0.4);
+    --blue: #5d8ac2;
+    --blue-muted: hsla(197, 48%, 60%, 0.4);
+    --blue-dark: hsl(197, 48%, 40%);
+    --magenta: #c487b9;
+    --magenta-muted: hsla(312, 43%, 65%, 0.4);
+    --orange: #d08770;
+    --orange-muted: hsla(24, 71%, 59%, 0.4);
+    --subtle: #4c566a;
+    --bg-alt: #2b2e36;
+
+    /* CHANGE THESE FOR CHANGING SOME HIGHLIGHTS */
+    /* GITHUB PRIMER VARIABLES */
+    /* https://primer.style/primitives/colors */
+    --color-fg-default: var(--fg) !important;
+    --color-fg-muted: var(--subtle) !important;
+    --color-fg-subtle: var(--subtle) !important;
+    --color-fg-on-emphasis: var(--fg) !important;
+
+    --color-canvas-default: var(--bg) !important;
+    --color-canvas-overlay: var(--bg-float) !important;
+    --color-canvas-inset: var(--bg-alt) !important;
+    --color-canvas-subtle: var(--bg-float) !important;
+    
+    --color-border-default: var(--inactive) !important;
+    --color-border-muted: var(--subtle) !important;
+    --color-border-subtle: var(--subtle) !important;
+
+    --color-shadow-small: 0 0 transparent !important;
+    --color-shadow-medium: 0 3px 6px var(--bg-alt) !important;
+    --color-shadow-large: 0 8px 24px var(--bg-alt) !important;
+    --color-shadow-extra-large: 0 12px 48px var(--bg-alt) !important;
+
+    --color-neutral-emphasis-plus: var(--subtle) !important;
+    --color-netral-emphasis: var(--subtle) !important;
+    --color-neutral-muted: var(--inactive) !important;
+    --color-neutral-subtle: var(--bg-alt) !important;
+
+    --color-accent-fg: var(--blue) !important;
+    --color-accent-emphasis: var(--blue) !important;
+    --color-accent-muted: var(--blue-muted) !important;
+    --color-accent-subtle: var(--blue-muted) !important;
+
+    --color-success-fg: var(--green) !important;
+    --color-success-emphasis: var(--green-dark) !important;
+    --color-success-muted: var(--green-muted) !important;
+    --color-success-subtle: var(--green-muted) !important;
+    
+    --color-attention-fg: var(--yellow) !important;
+    --color-attention-emphasis: var(--yellow) !important;
+    --color-attention-muted: var(--yellow-muted) !important;
+    --color-attention-subtle: var(--yellow-muted) !important;
+    
+    --color-severe-fg: var(--orange) !important;
+    --color-severe-emphasis: var(--orange) !important;
+    --color-severe-muted: var(--orange-muted) !important;
+    --color-severe-subtle: var(--orange-muted) !important;
+
+    --color-danger-fg: var(--red) !important;
+    --color-danger-emphasis: var(--red) !important;
+    --color-danger-muted: var(--red-muted) !important;
+    --color-danger-subtle: var(--red-muted) !important;
+    
+    --color-done-fg: var(--magenta) !important;
+    --color-done-emphasis: var(--magenta) !important;
+    --color-done-muted: var(--magenta-muted) !important;
+    --color-done-subtle: var(--magenta-muted) !important;
+    
+    --color-sponsors-fg: var(--magenta) !important;
+    --color-sponsors-emphasis: var(--magenta) !important;
+    --color-sponsors-muted: var(--magenta-muted) !important;
+    --color-sponsors-subtle: var(--magenta-muted) !important;
+    
+    --color-primer-border-active: var(--orange) !important;
+    --color-sidenav-selected-bg: var(--bg-float) !important;
+    
+    --color-state-hover-primary-bg: var(--blue-dark) !important;
+    --color-state-hover-primary-border: var(--blue) !important;
+    
+    /* BUTTONS */   
+    --color-btn-text: var(--fg) !important;
+    --color-btn-bg: var(--bg-float) !important;
+    --color-btn-border: var(--color-border-subtle) !important;
+    --color-btn-hover-bg: var(--bg-alt) !important;
+    --color-btn-hover-border: var(--color-border-default) !important;
+    --color-btn-active-bg: var(--bg-alt) !important;
+    --color-btn-active-border: var(--color-btn-hover-border) !important;
+    --color-btn-selected-bg: var(--bg-alt) !important;
+    --color-btn-focus-bg: var(--bg-alt) !important;
+    --color-btn-primary-text: var(--fg) !important;
+    --color-btn-primary-bg: var(--green) !important;
+    --color-btn-primary-hover-bg: var(--green-dark) !important;
+    --color-btn-primary-selected-bg: var(--green-dark) !important;
+    --color-btn-primary-focus-bg: var(--green) !important;
+    --color-btn-primary-icon: var(--fg) !important;
+    --color-btn-outline-text: var(--blue) !important;
+    --color-btn-outline-hover-text: var(--blue) !important;
+    --color-btn-outline-hover-bg: var(--bg-alt) !important;
+    --color-btn-outline-selected-text: var(--fg) !important;
+    --color-btn-outline-selected-bg: var(--blue-dark) !important;
+    --color-btn-outline-disabled-bg: var(--bg-float) !important;
+    --color-btn-danger-text: var(--red) !important;
+    --color-btn-danger-hover-text: var(--fg) !important;
+    --color-btn-danger-hover-bg: var(--red) !important;
+    --color-btn-danger-hover-border: var(--red) !important;
+    --color-btn-danger-hover-icon: var(--fg) !important;
+    --color-btn-danger-selected-text: var(--fg) !important;
+    --color-btn-danger-selected-bg: var(--red) !important;
+    --color-btn-danger-selected-border: var(--orange) !important;
+    --color-btn-danger-disabled-bg: var(--bg) !important;
+    --color-btn-danger-focus-border: var(--red) !important;
+    --color-btn-danger-icon: var(--red) !important;
+
+    /* ANSI */
+    --color-ansi-black: #0d1117;
+    --color-ansi-black-bright: #0d1117;
+    --color-ansi-white: #b1bac4;
+    --color-ansi-white-bright: #f0f6fc;
+    --color-ansi-gray: #6e7681;
+    --color-ansi-red: var(--red) !important;
+    --color-ansi-red-bright: var(--red) !important;
+    --color-ansi-green: var(--green) !important;
+    --color-ansi-green-bright: var(--green) !important;
+    --color-ansi-yellow: var(--yellow) !important;
+    --color-ansi-yellow-bright: var(--yellow) !important;
+    --color-ansi-blue: var(--blue) !important;
+    --color-ansi-blue-bright: var(--blue) !important;
+    --color-ansi-magenta: var(--magenta) !important;
+    --color-ansi-magenta-bright: var(--magenta) !important;
+    --color-ansi-cyan: var(--blue) !important;
+    --color-ansi-cyan-bright: var(--blue) !important;
+    
+    /* WORKFLOWS */
+	--color-workflow-card-bg: var(--bg-alt) !important;	
+	--color-workflow-card-hover-bg: var(--bg-float) !important;
+	--color-workflow-card-hover-bg: var(--highlight-overlay) !important;
+	--color-workflow-card-focus-bg: var(--bg-float) !important;
+	--color-workflow-card-focus-bg: var(--highlight-overlay) !important;
+	--color-workflow-card-border: var(--highlight) !important;
+
+	--color-checks-bg: var(--bg-alt) !important;    
+    --color-checks-text-primary: var(--fg) !important;
+    --color-checks-text-secondary: var(--subtle) !important;
+    --color-checks-text-link: var(--blue) !important;
+    --color-checks-btn-icon: var(--fg) !important;
+    --color-checks-btn-hover-icon: var(--subtle) !important;
+    --color-checks-input-text: var(--subtle) !important;
+    --color-checks-input-placeholder-text: var(--inactive) !important;
+    --color-checks-input-focus-text: var(--fg) !important;
+    --color-checks-input-bg: var(--bg-float) !important;
+    --color-checks-donut-error: var(--red) !important;
+    --color-checks-donut-pending: var(--yellow) !important;
+    --color-checks-donut-success: var(--green) !important;
+    --color-checks-donut-neutral: var(--subtle) !important;
+    --color-checks-dropdown-text: var(--fg) !important;
+    --color-checks-dropdown-bg: var(--bg-alt) !important;
+    --color-checks-dropdown-border: var(--bg-float) !important;
+    --color-checks-dropdown-hover-text: var(--fg) !important;
+    --color-checks-dropdown-btn-hover-text: var(--fg) !important;
+    --color-checks-header-label-text: var(--subtle) !important;
+    --color-checks-header-label-open-text: var(--fg) !important;
+    --color-checks-header-border: var(--bg-alt) !important;
+    --color-checks-header-icon: var(--fg) !important;
+    --color-checks-line-text: var(--fg) !important;
+    --color-checks-line-num-text: var(--subtle) !important;
+    --color-checks-line-timestamp-text: var(--subtle) !important;
+    --color-checks-line-selected-num-text: var(--blue) !important;
+    --color-checks-line-dt-fm-text: var(--fg) !important;
+    --color-checks-line-dt-fm-bg: var(--orange) !important;
+    --color-checks-gate-text: var(--subtle) !important;
+    --color-checks-gate-waiting-text: var(--yellow) !important;
+    --color-checks-step-header-open-bg: var(--bg-float) !important;
+    --color-checks-step-error-text: var(--red) !important;
+    --color-checks-step-warning-text: var(--yellow) !important;
+    --color-checks-logline-text: var(--fg) !important;
+    --color-checks-logline-num-text:var(--subtle) !important;
+    --color-checks-logline-debug-text: var(--magenta) !important;
+    --color-checks-logline-error-text: var(--fg) !important;
+    --color-checks-logline-error-num-text: var(--subtle) !important;
+    --color-checks-logline-warning-text: var(--fg) !important;
+    --color-checks-logline-warning-num-text: var(--yellow) !important;
+    --color-checks-logline-command-text: var(--blue) !important;
+    --color-checks-logline-section-text: var(--green) !important;
+    --color-checks-ansi-black: var(--color-ansi-black) !important;
+    --color-checks-ansi-black-bright: var(--color-ansi-black-bright) !important;
+    --color-checks-ansi-white: var(--color-ansi-white) !important;
+    --color-checks-ansi-white-bright: var(--color-ansi-white-bright) !important;
+    --color-checks-ansi-gray: var(--color-ansi-gray) !important;
+    --color-checks-ansi-red: var(--color-ansi-red) !important;
+    --color-checks-ansi-red-bright: var(--color-ansi-red-bright) !important;
+    --color-checks-ansi-green: var(--color-ansi-green) !important;
+    --color-checks-ansi-green-bright: var(--color-ansi-green-bright) !important;
+    --color-checks-ansi-yellow: var(--color-ansi-yellow) !important;
+    --color-checks-ansi-yellow-bright: var(--color-ansi-yellow-bright) !important;
+    --color-checks-ansi-blue: var(--color-ansi-blue) !important;
+    --color-checks-ansi-blue-bright: var(--color-ansi-blue-bright) !important;
+    --color-checks-ansi-magenta: var(--color-ansi-magenta) !important;
+    --color-checks-ansi-magenta-bright: var(--color-ansi-magenta-bright) !important;
+    --color-checks-ansi-cyan: var(--color-ansi-cyan) !important;
+    --color-checks-ansi-cyan-bright: var(--color-ansi-cyan-bright) !important;
+
+    /* CONTRIBUTION GRAPH */
+    --color-calendar-halloween-graph-day-L2-bg: var(--red) !important;
+    --color-calendar-halloween-graph-day-L3-bg: var(--orange) !important;
+    --color-calendar-halloween-graph-day-L4-bg:var(--yellow) !important;
+    --color-calendar-graph-day-bg: var(--bg-alt) !important;
+    --color-calendar-graph-day-L1-bg: var(--green-dark) !important;
+    --color-calendar-graph-day-L2-bg: var(--green-dark) !important;
+    --color-calendar-graph-day-L3-bg: var(--green) !important;
+    --color-calendar-graph-day-L4-bg: var(--green) !important;
+    --color-user-mention-fg: var(--fg) !important;
+    --color-user-mention-bg: var(--yellow) !important;
+
+    /* HEADER */
+	--color-header-bg: var(--bg-float) !important;	
+	--color-header-border: var(--highlight) !important;
+	--color-header-text: var(--fg) !important;
+	--color-header-search-bg: var(--bg-float) !important;
+
+    /* MARKETING */
+    --color-marketing-icon-primary: var(--green) !important;
+    --color-marketing-icon-secondary: var(--blue-dark) !important;
+    
+    /* SEARCH KEYWORD */
+    --color-search-keyword-hl: var(--yellow-muted) !important;
+
+    /* DIFFS */
+    --color-diff-blob-addition-num-text: var(--fg) !important;
+    --color-diff-blob-addition-fg: var(--fg) !important;
+    --color-diff-blob-addition-num-bg: var(--green-muted) !important;
+    --color-diff-blob-addition-line-bg: var(--green-muted) !important;
+    --color-diff-blob-addition-word-bg: var(--green-muted) !important;
+    --color-diff-blob-deletion-num-text: var(--fg) !important;
+    --color-diff-blob-deletion-fg: var(--fg) !important;
+    --color-diff-blob-deletion-num-bg: var(--red-muted) !important;
+    --color-diff-blob-deletion-line-bg: var(--red-muted) !important;
+    --color-diff-blob-deletion-word-bg: var(--red-muted) !important;
+    --color-diff-blob-hunk-num-bg: var(--blue-muted) !important;
+    --color-diff-blob-expander-icon: var(--subtle) !important;
+    --color-diffstat-deletion-border: var(--red-muted) !important;
+    --color-diffstat-addition-border: var(--green-muted) !important;
+    --color-diffstat-addition-bg: var(--green) !important;
+
+    /* PRETTYLIGHTS CODE SYNTAX HIGHLIGHTING */
+    --color-prettylights-syntax-comment: var(--subtle) !important;
+    --color-prettylights-syntax-constant: var(--blue) !important;
+    --color-prettylights-syntax-entity: var(--magenta) !important;
+    --color-prettylights-syntax-storage-modifier-import: var(--fg) !important;
+    --color-prettylights-syntax-entity-tag: var(--green) !important;
+    --color-prettylights-syntax-keyword: var(--red) !important;
+    --color-prettylights-syntax-string: var(--green) !important;
+    --color-prettylights-syntax-variable: var(--yellow) !important;
+    --color-prettylights-syntax-brackethighlighter-unmatched: var(--orange) !important;
+    --color-prettylights-syntax-invalid-illegal-text: var(--fg) !important;
+    --color-prettylights-syntax-invalid-illegal-bg: var(--red) !important;
+    --color-prettylights-syntax-carriage-return-text: var(--fg) !important;
+    --color-prettylights-syntax-carriage-return-bg: var(--red) !important;
+    --color-prettylights-syntax-string-regexp: var(--green) !important;
+    --color-prettylights-syntax-markup-list: var(--yellow) !important;
+    --color-prettylights-syntax-markup-heading: var(--blue) !important;
+    --color-prettylights-syntax-markup-italic: var(--fg) !important;
+    --color-prettylights-syntax-markup-bold: var(--fg) !important;
+    --color-prettylights-syntax-markup-deleted-text: var(--fg) !important;
+    --color-prettylights-syntax-markup-deleted-bg: var(--red) !important;
+    --color-prettylights-syntax-markup-inserted-text: var(--green) !important;
+    --color-prettylights-syntax-markup-inserted-bg: var(--green-dark) !important;
+    --color-prettylights-syntax-markup-changed-text: var(--fg) !important;
+    --color-prettylights-syntax-markup-changed-bg: var(--red) !important;
+    --color-prettylights-syntax-markup-ignored-text: var(--fg) !important;
+    --color-prettylights-syntax-markup-ignored-bg: var(--blue) !important;
+    --color-prettylights-syntax-meta-diff-range: var(--magenta) !important;
+    --color-prettylights-syntax-brackethighlighter-angle: var(--subtle) !important;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: var(--inactive) !important;
+    --color-prettylights-syntax-constant-other-reference-link: var(--green) !important;
+
+    /* CODE MIRROR */
+    --color-codemirror-text: var(--fg) !important;
+    --color-codemirror-bg: var(--bg) !important;
+    --color-codemirror-gutters-bg: var(--bg-alt) !important;
+    --color-codemirror-guttermarker-text: var(--inactive) !important;
+    --color-codemirror-guttermarker-subtle-text: var(--subtle) !important;
+    --color-codemirror-linenumber-text: var(--inactive) !important;
+    --color-codemirror-cursor: var(--highlight) !important;
+    --color-codemirror-selection-bg: var(--blue-muted) !important;
+    --color-codemirror-activeline-bg: var(--highlight-alpha) !important;
+    --color-codemirror-matchingbracket-text: var(--fg) !important;
+    --color-codemirror-lines-bg: var(--bg) !important;
+    --color-codemirror-syntax-comment: var(--subtle) !important;
+    --color-codemirror-syntax-constant: var(--blue) !important;
+    --color-codemirror-syntax-entity: var(--magenta) !important;
+    --color-codemirror-syntax-keyword: var(--red) !important;
+    --color-codemirror-syntax-storage: var(--red) !important;
+    --color-codemirror-syntax-string: var(--green) !important;
+    --color-codemirror-syntax-support: var(--highlight-inactive) !important;
+    --color-codemirror-syntax-variable: var(--yellow) !important;
+
+    /* SOCIAL */
+    --color-social-reaction-border: var(--blue) !important;
+    --color-social-reaction-bg: var(--bg-float) !important;
+    --color-social-reaction-bg-hover: var(--bg-alt) !important;
+    --color-social-reaction-bg-reacted-hover: var(--blue-dark) !important;
+
+    /* MISC */
+    --color-avatar-bg: var(--inactive) !important;
+    --color-avatar-border: var(--inactive) !important;
+    --color-avatar-stack-fade: var(--inactive) !important;
+    --color-avatar-stack-fade-more: var(--bg-alt) !important;
+    --color-avatar-child-shadow: -2px -2px 0 var(--bg) !important;
+    --color-underlinenav-icon: var(--inactive) !important;
+    --color-underlinenav-border-hover: var(--inactive) !important;
+
+    /* NOTIFICATIONS */
+    --color-notifications-button-text: var(--fg) !important;
+    --color-notifications-button-hover-text: var(--fg) !important;
+    --color-notifications-button-hover-bg: var(--blue-dark) !important;
+
+    /* MARKDOWN ig */
+    --color-mktg-success: var(--green) !important;
+    --color-mktg-info: var(--blue-dark) !important;
+    --color-mktg-btn-bg-top: var(--blue) !important;
+    --color-mktg-btn-bg-bottom: var(--blue) !important;
+    --color-mktg-btn-bg-overlay-top: var(--blue) !important;
+    --color-mktg-btn-bg-overlay-bottom:var(--blue-dark) !important;
+    --color-mktg-btn-text: var(--fg) !important;
+    --color-mktg-btn-primary-bg-top: var(--green-dark) !important;
+    --color-mktg-btn-primary-bg-bottom: var(--green-dark) !important;
+    --color-mktg-btn-primary-bg-overlay-top: var(--green-dark) !important;
+    --color-mktg-btn-primary-bg-overlay-bottom: var(--green-dark) !important;
+    --color-mktg-btn-primary-text: var(--fg) !important;
+    --color-mktg-btn-enterprise-bg-top: var(--magenta) !important;
+    --color-mktg-btn-enterprise-bg-bottom: var(--magenta) !important;
+    --color-mktg-btn-enterprise-bg-overlay-top: var(--magenta) !important;
+    --color-mktg-btn-enterprise-bg-overlay-bottom: var(--magenta) !important;
+    --color-mktg-btn-enterprise-text: var(--fg) !important;
+    --color-mktg-btn-outline-text: var(--fg) !important;
+    --color-mktg-btn-outline-hover-text: var(--fg) !important;
+    --color-mktg-btn-outline-focus-border: var(--fg) !important;
+    --color-mktg-btn-dark-text: var(--fg) !important;
+    --color-mktg-btn-dark-hover-text: var(--fg) !important;
+    --color-mktg-btn-dark-focus-border: var(--fg) !important;
+}
