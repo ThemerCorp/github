@@ -231,7 +231,7 @@
     --color-user-mention-bg: var(--yellow) !important;
 
     /* HEADER */
-	--color-header-bg: var(--bg-alt) !important;	
+	--color-header-bg: var(--bg-float) !important;	
 	--color-header-border: var(--highlight) !important;
 	--color-header-text: var(--fg) !important;
 	--color-header-search-bg: var(--bg-float) !important;
