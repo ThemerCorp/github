@@ -1,29 +1,31 @@
+/* THEMER <3 GITHUB */
+/* PAPA <3 PAPA DARK */
 :root {
     /* COLOR PALLETE */
     /* for *-muted variables use 0.4 for alpha */
-    --bg: #2e3440;
-    --highlight: #434c5e;
-    --highlight-overlay: var(--highlight);
-    --highlight-inactive: var(--highlight);
-    --fg: #E5E9F0;
-    --bg-float: #3B4048;
-    --inactive: #4C566A;
+    --bg: hsl(220, 16%, 22%);
+    --highlight: hsl(220, 17%, 32%);
+    --highlight-overlay: hsl(220, 17%, 32%);
+    --highlight-inactive: hsl(222, 14%, 28%);
+    --fg: #e5e9f0;
+    --bg-float: hsl(217, 18%, 26%);
+    --inactive: #4c566a;
     --red: #d94848;
-    --red-muted: hsla(2, 87%, 68%, 0.4);
-    --green: #98C379;
+    --red-muted: hsl(0, 66%, 57%, 0.4);
+    --green: hsl(95, 38%, 56%);
     --green-muted: hsla(78, 38%, 56%, 0.4);
-    --green-dark: hsl(78, 38%, 30%);
-    --yellow: #d4d198;
-    --yellow-muted: hsl(36, 68%, 65%, 0.4);
-    --blue: #5d8ac2;
-    --blue-muted: hsla(197, 48%, 60%, 0.4);
-    --blue-dark: hsl(197, 48%, 40%);
+    --green-dark: hsl(78, 39%, 30%);
+    --yellow: hsl(57, 41%, 71%);
+    --yellow-muted: hsla(57, 41%, 71%, 0.4);
+    --blue: hsl(213, 45%, 56%);
+    --blue-muted: hsla(213, 45%, 56%, 0.4);
+    --blue-dark: hsl(213, 45%, 40%);
     --magenta: #c487b9;
     --magenta-muted: hsla(312, 43%, 65%, 0.4);
-    --orange: #d08770;
-    --orange-muted: hsla(24, 71%, 59%, 0.4);
-    --subtle: #4c566a;
-    --bg-alt: #2b2e36;
+    --orange: hsl(14, 51%, 63%);
+    --orange-muted: hsla(14, 51%, 63%, 0.4);
+    --subtle: hsl(220, 16%, 56%);
+    --bg-alt: hsl(224, 11%, 19%);
 
     /* CHANGE THESE FOR CHANGING SOME HIGHLIGHTS */
     /* GITHUB PRIMER VARIABLES */
@@ -109,6 +111,8 @@
     --color-btn-primary-selected-bg: var(--green-dark) !important;
     --color-btn-primary-focus-bg: var(--green) !important;
     --color-btn-primary-icon: var(--fg) !important;
+    --color-btn-primary-disabled-bg: var(--green-dark) !important;
+    --color-btn-primary-disabled-text: var(--subtle) !important;
     --color-btn-outline-text: var(--blue) !important;
     --color-btn-outline-hover-text: var(--blue) !important;
     --color-btn-outline-hover-bg: var(--bg-alt) !important;
