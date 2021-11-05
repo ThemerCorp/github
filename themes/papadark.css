@@ -1,32 +1,31 @@
 /* THEMER <3 GITHUB */
-/* NTB & VHYGAWD <3 DOOMBOX */
-
+/* PAPA <3 PAPA DARK */
 :root {
     /* COLOR PALLETE */
     /* for *-muted variables use 0.4 for alpha */
-    --bg: #22262a;
-    --highlight: #D3D4D4;
-    --highlight-overlay: var(--highlight);
-    --highlight-inactive: var(--highlight);
-    --fg:#d8d3ca;
-    --bg-float: #2d3135;
-    --inactive: #50545a;
-    --red: hsl(2, 87%, 68%);
-    --red-muted: hsla(2, 87%, 68%, 0.4);
-    --green: hsl(78, 38%, 46%);
+    --bg: hsl(220, 16%, 22%);
+    --highlight: hsl(220, 17%, 32%);
+    --highlight-overlay: hsl(220, 17%, 32%);
+    --highlight-inactive: hsl(222, 14%, 28%);
+    --fg: #e5e9f0;
+    --bg-float: hsl(217, 18%, 26%);
+    --inactive: #4c566a;
+    --red: #d94848;
+    --red-muted: hsl(0, 66%, 57%, 0.4);
+    --green: hsl(95, 38%, 56%);
     --green-muted: hsla(78, 38%, 56%, 0.4);
-    --green-dark: hsl(78, 38%, 30%);
-    --yellow: hsl(36, 68%, 65%);
-    --yellow-muted: hsl(36, 68%, 65%, 0.4);
-    --blue: hsl(197, 48%, 60%);
-    --blue-muted: hsla(197, 48%, 60%, 0.4);
-    --blue-dark: hsl(197, 48%, 40%);
-    --magenta: hsl(312, 43%, 65%);
+    --green-dark: hsl(78, 39%, 30%);
+    --yellow: hsl(57, 41%, 71%);
+    --yellow-muted: hsla(57, 41%, 71%, 0.4);
+    --blue: hsl(213, 45%, 56%);
+    --blue-muted: hsla(213, 45%, 56%, 0.4);
+    --blue-dark: hsl(213, 45%, 40%);
+    --magenta: #c487b9;
     --magenta-muted: hsla(312, 43%, 65%, 0.4);
-    --orange: hsl(24, 71%, 59%);
-    --orange-muted: hsla(24, 71%, 59%, 0.4);
-    --subtle: #868c9c;
-    --bg-alt: #383c3f;
+    --orange: hsl(14, 51%, 63%);
+    --orange-muted: hsla(14, 51%, 63%, 0.4);
+    --subtle: hsl(220, 16%, 56%);
+    --bg-alt: hsl(224, 11%, 19%);
 
     /* CHANGE THESE FOR CHANGING SOME HIGHLIGHTS */
     /* GITHUB PRIMER VARIABLES */
