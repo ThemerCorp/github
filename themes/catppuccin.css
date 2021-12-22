@@ -14,8 +14,8 @@
     --base08: 358, 61%, 72%;
     --base09: 047, 62%, 79%;
     --base0A: 025, 89%, 78%;
-    --base0B: 116, 49%, 65%;
-    --base0B_darken: 116, 49%, 60%;
+    --base0B: 116, 49%, 62%;
+    --base0B_darken: 116, 49%, 57%;
     --base0C: 191, 57%, 84%;
     --base0D: 223, 70%, 79%;
     --base0D_darken: 223, 70%, 70%;
@@ -144,8 +144,8 @@
     --color-btn-primary-selected-bg: var(--__base0B_darken) !important;
     --color-btn-primary-focus-bg: var(--__base0B) !important;
     --color-btn-primary-icon: var(--__base05) !important;
-    --color-btn-primary-disabled-bg: var(--__base0B_darken) !important;
-    --color-btn-primary-disabled-text: var(--__base03) !important;
+    --color-btn-primary-disabled-bg: var(--__base0B_muted) !important;
+    --color-btn-primary-disabled-text: var(--__base06) !important;
     --color-btn-outline-text: var(--__base0D) !important;
     --color-btn-outline-hover-text: var(--__base0D) !important;
     --color-btn-outline-hover-bg: var(--__base01) !important;
