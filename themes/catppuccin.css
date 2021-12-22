@@ -14,8 +14,9 @@
     --base08: 358, 61%, 72%;
     --base09: 047, 62%, 79%;
     --base0A: 025, 89%, 78%;
-    --base0B: 116, 49%, 62%;
-    --base0B_darken: 116, 49%, 57%;
+    --base0B: 116, 49%, 79%;
+    --base0B_darken: 116, 49%, 65%;
+    --base0B_darkest: 116, 49%, 60%;
     --base0C: 191, 57%, 84%;
     --base0D: 223, 70%, 79%;
     --base0D_darken: 223, 70%, 70%;
@@ -60,8 +61,9 @@
 
     /* DARKEN STUFF */
     --__base0B_darken: hsl(var(--base0B_darken));
+    --__base0B_darkest: hsl(var(--base0B_darkest));
     --__base0D_darken: hsl(var(--base0D_darken));
-
+    
     /* ADVANCED STUFF */
     --color-fg-default: var(--__base05) !important;
     --color-fg-muted: var(--__base03) !important;
@@ -139,10 +141,10 @@
     --color-btn-selected-bg: var(--__base01) !important;
     --color-btn-focus-bg: var(--__base01) !important;
     --color-btn-primary-text: var(--__base05) !important;
-    --color-btn-primary-bg: var(--__base0B) !important;
+    --color-btn-primary-bg: var(--__base0B_darkest) !important;
     --color-btn-primary-hover-bg: var(--__base0B_darken) !important;
     --color-btn-primary-selected-bg: var(--__base0B_darken) !important;
-    --color-btn-primary-focus-bg: var(--__base0B) !important;
+    --color-btn-primary-focus-bg: var(--__base0B_muted) !important;
     --color-btn-primary-icon: var(--__base05) !important;
     --color-btn-primary-disabled-bg: var(--__base0B_muted) !important;
     --color-btn-primary-disabled-text: var(--__base06) !important;
